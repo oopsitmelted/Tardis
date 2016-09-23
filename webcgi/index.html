@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Tardis Control Panel</title>
+    </head>
+    <body>
+    <h1>
+        <p>Tardis Control Panel</p>
+    </h1>
+    <form action="http://tardis.local/cgi-bin/tcontrol.py" method="get">
+        <p>Trigger Enabled:</p>
+        <select name="triggerenabled">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+        </select>
+        <br />
+        <p>Light Mode:</p>
+        <select name="lightmode">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+            <option value="blink">Blink</option>
+        </select>
+        <br />
+        <p>Sound Effect: </p>
+        <select name="sound">
+            <option value="none">None</option>
+            <option value="exterminate">Exterminate</option>
+            <option value="tardis">Tardis</option>
+            <option value="theme">Theme</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="Go!" />
+    </form>
+    <img src="images/console2.jpg" align="middle" />
+</html>
